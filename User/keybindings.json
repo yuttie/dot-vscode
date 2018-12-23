@@ -3,5 +3,9 @@
 { "key": "ctrl+a",                "command": "cursorHome",
                                      "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert'" },
 { "key": "ctrl+e",                "command": "cursorEnd",
+                                     "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert'" },
+{ "key": "ctrl+f",                "command": "cursorRight",
+                                     "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert'" },
+{ "key": "ctrl+b",                "command": "cursorLeft",
                                      "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert'" }
 ]
