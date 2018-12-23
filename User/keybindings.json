@@ -11,5 +11,17 @@
 { "key": "ctrl+h",                "command": "deleteLeft",
                                      "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert'" },
 { "key": "ctrl+d",                "command": "deleteRight",
-                                     "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert'" }
+                                     "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert'" },
+{ "key": "ctrl+a",                "command": "cursorHome",
+                                     "when": "!editorTextFocus" },
+{ "key": "ctrl+e",                "command": "cursorEnd",
+                                     "when": "!editorTextFocus" },
+{ "key": "ctrl+f",                "command": "cursorRight",
+                                     "when": "!editorTextFocus" },
+{ "key": "ctrl+b",                "command": "cursorLeft",
+                                     "when": "!editorTextFocus" },
+{ "key": "ctrl+h",                "command": "deleteLeft",
+                                     "when": "!editorTextFocus" },
+{ "key": "ctrl+d",                "command": "deleteRight",
+                                     "when": "!editorTextFocus" }
 ]
