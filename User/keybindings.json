@@ -1,0 +1,7 @@
+// Place your key bindings in this file to override the defaults
+[
+{ "key": "ctrl+a",                "command": "cursorHome",
+                                     "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert'" },
+{ "key": "ctrl+e",                "command": "cursorEnd",
+                                     "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert'" }
+]
