@@ -1,0 +1,15 @@
+{
+    "editor.fontFamily": "'Fantasque Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "workbench.iconTheme": "eq-material-theme-icons-light",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 12,
+    "workbench.colorTheme": "Ayu Light",
+    "vim.hlsearch": true,
+    "searchRipgrep.enable": true,
+    "vim.easymotion": true,
+    "vim.easymotionKeys": "htuensoafgypc.r,",
+    "breadcrumbs.enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.jediEnabled": false,
+    "terminal.integrated.fontSize": 12
+}
