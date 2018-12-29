@@ -2,7 +2,11 @@
 /Cache
 /CachedData
 /CachedExtensions
+/Cookies
+/Cookies-journal
 /GPUCache
 /Local Storage
 /logs
+/machineid
+/storage.json
 /User/workspaceStorage
